@@ -3,20 +3,24 @@
     LOGIN
 @endsection
 @section('contenido')
-    <form>
+    <form action="{{route('login')}}" method="POST">
+        @csrf
     <!-- Email input -->
-
+@if (session('mensaje'))
+<p style="color: red">{{session('mensaje')}}</p>
+@endif
+    
     <div class="form-outline mb-4">
 
-        <input type="email" id="form1Example1" class="form-control" />
-        <label class="form-label" for="form1Example1">UserName</label>
+        <input type="email" id="form1Example1" name="email" class="form-control" />
+        <label class="form-label" for="form1Example1">Email</label>
 
     </div>
     <!-- Password input -->
 
     <div class="form-outline mb-4">
 
-        <input type="password" id="form1Example2" class="form-control" />
+        <input type="password" name="password" id="form1Example2" class="form-control" />
 
         <label class="form-label" for="form1Example2">Password</label>
 
