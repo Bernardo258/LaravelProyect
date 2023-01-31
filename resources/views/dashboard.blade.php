@@ -36,7 +36,7 @@ Escoge tu pelicula
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Download</button>
               </div>
             </div>
           </div>
@@ -55,11 +55,11 @@ Escoge tu pelicula
           Luffy y sus amigos acuden al concierto y se dan cuenta de que la voz de Uta es capaz de cambiarlo todo.
         </p>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
           Play
         </button>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -71,7 +71,7 @@ Escoge tu pelicula
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Download</button>
               </div>
             </div>
           </div>
@@ -86,11 +86,11 @@ Escoge tu pelicula
         <h5 class="card-title">One Piece: Estampida</h5>
         <p class="card-text">Después de dormir durante 15 años, el dios de la destrucción Bills despierta y se sorprende al saber que Freezer ha sido derrotado por un joven llamado Goku. No les toma mucho tiempo a él y a su maestro salir a buscarlo.</p>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
           Play
         </button>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -102,7 +102,7 @@ Escoge tu pelicula
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Download</button>
               </div>
             </div>
           </div>
@@ -119,11 +119,11 @@ Escoge tu pelicula
           Luffy y su tripulación se enfrentan a Tesoro, un hombre sumamente rico, ambicioso y egoísta. Nami será una pieza clave en esta misión.
         </p>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal4">
           Play
         </button>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -135,7 +135,7 @@ Escoge tu pelicula
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Download</button>
               </div>
             </div>
           </div>
@@ -152,11 +152,11 @@ Escoge tu pelicula
           Un ex-almirante de la Marina roba el Dyna Stones, y se cruza en el camino de los Piratas de Sombrero de Paja.
         </p>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal5">
           Play
         </button>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -168,7 +168,7 @@ Escoge tu pelicula
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Download</button>
               </div>
             </div>
           </div>
@@ -185,11 +185,11 @@ Escoge tu pelicula
           La historia nos narra los dos años de entrenamiento de Luffy con Silvers Rayleigh en la isla Rusukaina, después de la batalla de Marineford y la muerte de su hermano Ace. Allí descubrirá a Byrnndi World, el Destructor del Mundo y el poder de la Fruta del Diablo, Fruta Moa Moa.
         </p>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+        <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal6">
           Play
         </button>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -201,7 +201,7 @@ Escoge tu pelicula
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Download</button>
               </div>
             </div>
           </div>
