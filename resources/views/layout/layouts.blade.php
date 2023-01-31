@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- MDBootstrap -->
     <script src="https://kit.fontawesome.com/825719bb21.js" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+    ></script>
     <link rel="stylesheet" href="{{asset('css/mdb.min.css')}}">
 
     <script scr="{{asset('js/mdb.min.js')}}"></script>
