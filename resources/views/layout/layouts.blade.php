@@ -46,11 +46,24 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Informacion sobre One Piece</a>
                 </li>
+                
+                @auth
+                <form action="{{route('logout')}}" method="POST">
+                  @csrf
+                  <button type="submit" class="btn btn-link px-3 me-2">LogOuth</button>
+                </form>
+                @endauth
+          
+                @guest
                 <li class="nav-item">
                   <a class="nav-link" href="http://127.0.0.1:8000/login">LOGIN</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="http://127.0.0.1:8000/formulario">Sign In</a>
+                </li>
+                @endguest
+                
+
                 </li>
               </ul>
             </div>
