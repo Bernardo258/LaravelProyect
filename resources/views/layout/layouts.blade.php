@@ -46,7 +46,13 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Informacion sobre One Piece</a>
                 </li>
-                
+                @auth
+                  <div class="d-flex aling-items-center">
+                    <a href="{{route ('post.create')}}" class="btn btn-link px-3 me-2">
+                      <i class="fas fa-plus-circle"></i>Crear Post
+                    </a>
+                  </div>
+                @endauth
                 @auth
                 <form action="{{route('logout')}}" method="POST">
                   @csrf
