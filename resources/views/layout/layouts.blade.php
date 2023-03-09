@@ -7,7 +7,7 @@
 
     <!-- Vite -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+    @stack('styles')
     <!-- MDBootstrap -->
     <script src="https://kit.fontawesome.com/825719bb21.js" crossorigin="anonymous"></script>
     <!-- MDB -->
