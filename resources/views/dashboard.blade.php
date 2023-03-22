@@ -209,5 +209,31 @@ Escoge tu pelicula
       </div>
     </div>
   </div>
+  @if ($posts -> count())
+  <h1 class="card-title text-center">PUBLICACIONES</h1>
+    <div class="row row-cols-md-3 g-3">
+      @foreach ($posts as $post)
+    <div class="col">
+      <div class="card h-100">
+        <img src="{{asset('upload').'/'.$post->imagen}}" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">{{$post->titulo}}</h5>
+          <p class="card-title">
+            <small class="text-info">{{ '@'.$post->user->usename}}</small>
+            <small class="text-muted">{{$post->created_at->diffForHummans()}}</small>
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="{{ route('posts.show', ['post' => $post , 'user' => $user]) }}" ><i class="far fa-comment"></i></a>
+        </div>
+      </div>
+    </div>
+    @endforeach
+  </div>
+  <div> {{ $posts->links('pagination::bootstrap-5') }}
+   @else
+   <h1 class="text-center">NO HAY PUBLICACIONES</h1>
+   @endif
+  
   </div>
 @endsection
