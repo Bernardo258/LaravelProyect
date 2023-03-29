@@ -32,9 +32,9 @@ class PostController extends Controller
         'titulo' => 'required|max:255',
         'description' => 'required',
         'imagen' => 'required'
-    ]);
+        ]);
     
-    Post::create([
+        Post::create([
         'titulo' => $request -> titulo,
         'descripcion' => $request -> descripcion,
         'imagen' => $request -> imagen,

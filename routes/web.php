@@ -42,8 +42,8 @@ Route::get('/dashboard', [PostController::class, 'index'])->name('post.index');
 
 Route::get('/{user:username}', [PostController::class, 'index'])->name('post.index');
 Route::get('/muro/create', [PostController::class, 'create'])->name('post.create');
+Route::get('/{user:username}/post/{post}', [PostController::class, 'show'])->name('post.show');
 
 Route::post('/imagenes', [ImagenController::class, 'store'])->name('imagenes');
 
-Route::post('/posts',[PostController::class, 'store'])->name('posts.store');
-
+Route::post('/posts',[PostController::class, 'store']);

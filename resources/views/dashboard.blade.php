@@ -220,7 +220,7 @@ Escoge tu pelicula
           <h5 class="card-title">{{$post->titulo}}</h5>
           <p class="card-title">
             <small class="text-info">{{ '@'.$post->user->usename}}</small>
-            <small class="text-muted">{{$post->created_at->diffForHummans()}}</small>
+            <small class="text-muted">{{$post->created_at}}</small>
           </p>
         </div>
         <div class="card-footer">
